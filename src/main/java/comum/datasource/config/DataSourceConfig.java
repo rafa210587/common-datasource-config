@@ -45,7 +45,7 @@ public class DataSourceConfig {
 			@Value("${database.pool}") Integer pool) {
 
 		AuditSQLServerDataSource ds = new AuditSQLServerDataSource();
-		ds.setServerName("10.50.3.96");
+		ds.setServerName(host);
 		ds.setPort(port);
 		ds.setUsername(username);
 		ds.setPassword(password);
