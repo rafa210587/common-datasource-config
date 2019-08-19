@@ -100,28 +100,5 @@
 		</repository>
 	</distributionManagement>
 
-	<profiles>
-		<profile>
-			<id>build-lib</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.springframework.boot</groupId>
-						<artifactId>spring-boot-maven-plugin</artifactId>
-						<dependencies>
-							<dependency>
-								<groupId>org.springframework.boot.experimental</groupId>
-								<artifactId>spring-boot-thin-layout</artifactId>
-								<version>1.0.7.RELEASE</version>
-							</dependency>
-						</dependencies>
-						<configuration>
-							<mainClass>lib</mainClass>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
 
 </project>
