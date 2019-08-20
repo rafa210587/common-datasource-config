@@ -6,7 +6,7 @@
 
 	<groupId>comum.datasource.config</groupId>
 	<artifactId>comum-datasource-config</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>DataSource Config</name>
 	<description>lib for DataSource Config</description>
 
