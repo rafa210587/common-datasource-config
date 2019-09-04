@@ -15,9 +15,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@gitlab.interno.srmasset.com:COMUM/reference/comum-datasource-config.git</connection>
-		<developerConnection>scm:git:git@gitlab.interno.srmasset.com:COMUM/reference/comum-datasource-config.git</developerConnection>
-		<url>git@gitlab.interno.srmasset.com:COMUM/reference/comum-datasource-config.git</url>
+		<connection>scm:git:git@gitlab.</connection>
+		<developerConnection>scm:git:git@gitlab.</developerConnection>
+		<url>git@gitlabt</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -68,19 +68,18 @@
 		</plugins>
 	</build>
 
-
-	<repositories>
+<repositories>
 		<repository>
 			<id>Nexus</id>
-			<url>http://nexus.interno.srmasset.com/repository/releases/</url>
+			<url></url>
 		</repository>
 		<repository>
 			<id>Nexus-SNAPSHOTS</id>
-			<url>http://nexus.interno.srmasset.com/repository/maven-snapshots/</url>
+			<url></url>
 		</repository>
 		<repository>
 			<id>spring-releases</id>
-			<url>https://repo.spring.io/libs-release</url>
+			<url></url>
 		</repository>
 	</repositories>
 
@@ -88,7 +87,7 @@
 		<repository>
 			<id>Nexus</id>
 			<name>Repositório do Nexus</name>
-			<url>http://nexus.interno.srmasset.com/repository/releases/</url>
+			<url></url>
 		</repository>
 	</distributionManagement>
 

@@ -1,4 +1,4 @@
-package comum.datasource.config;
+package common.datasource.config;
 
 import javax.sql.DataSource;
 
